@@ -1,8 +1,8 @@
 writeRandomQuote = function () {
     let quotes = [
     "Me cago en el estilo de Zara y Desigual - ghandi",
-    "Dádle una pelota a cada uno y listo. - Jorge Luis Borges",
-    "M encantan los libros de autoayuda. - Leo Tolstoy"
+    "Dadle una pelota a cada uno y listo. - Jorge Luis Borges",
+    "Me encantan los libros de autoayuda. - Leon Tolstoy"
   ]
     let rand = Math.floor(Math.random()*quotes.length);
     document.getElementById("quote").innerText = quotes[rand];
