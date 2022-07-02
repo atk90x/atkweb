@@ -3,27 +3,27 @@ html {
     margin-right: auto;
     text-align: justify;
     width: 70%;
-    max-width: 900px;
-    background-color: lightgray;
-    color: grey;
+    max-width: 800px;
+    background-color: white;
+    color: black;
     font-size: 12px;
-    font-family: Helvetica, Roboto, Arial, sans-serif;
+    font-family:'Courier New', monospace;;
   }
   
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   
   h2 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   
   p {
-    font-size:2rem;
+    font-size:1rem;
   }
   
   footer {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   /*   ---------------------Links   */
   a:link {
@@ -46,26 +46,4 @@ html {
   a:active {
     color: grey;
   }
-  .button {
-    border: none;
-    color: white;
-    padding: 5px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 1s;
-    cursor: pointer;
-  }
   
-
-  .button1 {
-    background-color: lightgray; 
-    color: grey; 
-    border: 2px solid grey;
-  }
-  .button1:hover {
-    background-color: #060706;
-    color: white;
-  }
